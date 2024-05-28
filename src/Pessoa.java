@@ -3,6 +3,7 @@
 //como “cpf”, “nome” e “idade”. Implemente os métodos para definir e
 //obter esses atr
 
+
 public abstract class Pessoa {
     private String cpf; // declaração de variaveis
     private String nome;
