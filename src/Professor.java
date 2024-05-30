@@ -6,15 +6,16 @@ public class Professor extends Pessoa {
         this.centro = centro;
     }
 
-    public void darAula(){}
-
     public String getCentro() {
         return centro;
     }
-
+    
     public void setCentro(String centro) {
         this.centro = centro;
     }
-
+    
+    public void darAula(){
+        System.out.println("Aula dada pelo professor " + super.getNome() + ", com formacao em " + this.getCentro());
+    }
     
 }

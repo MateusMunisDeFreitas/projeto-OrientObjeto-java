@@ -5,5 +5,7 @@ public class Regular extends Aluno{
     }
 
     @Override
-    public void pagarMenssalidade(){}
+    public void pagarMenssalidade(){
+        System.out.println(super.getNome() + "é aluno regular, mensalidade paga.");
+    }
 }

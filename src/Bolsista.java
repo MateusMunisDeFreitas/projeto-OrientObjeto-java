@@ -5,5 +5,7 @@ public class Bolsista extends Aluno {
     }
 
     @Override
-    public void pagarMenssalidade(){}
+    public void pagarMenssalidade(){
+        System.out.println(super.getNome() + "é aluno bolsista, isento da mensalidade.");
+    }
 }

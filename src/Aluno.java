@@ -5,15 +5,15 @@ public class Aluno extends Pessoa {
         super(cpf, nome, idade);
         this.matricula = matricula;
     }
-
-    public void pagarMenssalidade(){}
-
+    
     public String getMatricula() {
         return matricula;
     }
-
+    
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
-
+    
+    public void pagarMenssalidade(){}
+    
 }
