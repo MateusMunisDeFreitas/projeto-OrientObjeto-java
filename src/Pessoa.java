@@ -39,11 +39,9 @@ public abstract class Pessoa {
         this.idade = idade;
     }
 
-    public void incrementarIdade(){
+    public void fazerAnivessario(){
         this.idade = this.idade + 1;
     }
-
-    public void fazerAnivessario(){};
 
 }
 
